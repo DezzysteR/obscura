@@ -16,7 +16,7 @@ $(".button--next").click((e) => {
     slider.goToNextSlide();
 });
 
-const portfolio = $(".portfolio__list").bxSdider({
+const portfolio = $(".portfolio__list").bxSlider({
     pager: false,
 controls: false,
 infiniteLoop: true,
